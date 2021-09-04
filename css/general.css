@@ -3,7 +3,13 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+}
+html{
+    font-size: 10px; /* unidades REM */
+    font-family: var(--fuente-1);
+}
 :root{
     /* Paleta de colores */
     --color-1: #345FB4;
@@ -22,4 +28,125 @@
     /* Familia tipográfica */
     --fuente-1: 'Source Sans Pro', sans-serif;
     --fuente-2: 'Bebas Neue', cursive;
+}
+
+/* Dimensiones de cajas */
+
+.caja_inicio{
+    width: 37.5rem;
+    height: auto;
+    margin: auto;
+}
+
+.logo_ERP{
+    width: 12rem;
+    height: 6rem;
+    margin-left: 20rem;
+    position: absolute;
+}
+
+.img_niño{
+    width: 37.5rem;
+    height: 32.5rem;
+    margin-top: 48.2rem;
+}
+.caja_inicio section{
+    margin: 10rem 0rem 0rem 0rem;
+    width: 37.5rem;
+    height: 81.2rem;
+    background-color: #fff;
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    max-width: 31.5rem;
+    margin: auto;
+    margin: 3.5rem 0rem 0rem 0rem;
+}
+.formulario_lb{
+    font-size: 1.2rem;
+    color: #A5A5A5;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5rem;
+}
+.caja_inicio section label{
+    display: flex;
+    flex-direction: column;
+}
+.formulario_lb input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #A5A5A5;
+    margin-top: 1rem;
+}
+.img_pequeña{
+    margin: 4rem 0rem 0rem 6rem;
+}
+.texto_saludo{
+    font-size: var(--texto-1);
+    color: #fff;
+    margin-left: 3rem;
+}
+.sign_continue{
+    color: rgba(255, 255, 255, 0.472);
+    font-size: var(--texto-2);
+    margin-left: 3rem;
+}
+.formulario{
+    display: flex;
+    flex-direction: column;
+    max-width: 31.5rem;
+    margin: auto;
+    margin: 3.5rem 0rem 0rem 0rem;
+}
+.label{
+    font-size: 1.2rem;
+    color: #A5A5A5;
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3.5rem;
+}
+.label input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #A5A5A5;
+    margin-top: 1rem;
+}
+.formulario button{
+    height: 5.4rem;
+    background: linear-gradient(35.54deg, #2855AE -7.25%, #7292CF 90.75%);
+    border-radius: 1rem;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-style: none;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.formulario button img{
+    width: 2.5rem;
+    margin-left: 11rem;
+    position: absolute;
+}
+.password{
+    color: #313131;
+    font-size: 14px;
+
+    margin-top: 2rem;
+    align-self: flex-end;
 }
