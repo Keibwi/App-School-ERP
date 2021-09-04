@@ -41,7 +41,8 @@ html{
 .logo_ERP{
     width: 12rem;
     height: 6rem;
-    margin-left: 20rem;
+    margin-left: 13rem;
+    margin-top: 15rem;
     position: absolute;
 }
 
@@ -53,7 +54,7 @@ html{
 .caja_inicio section{
     margin: 10rem 0rem 0rem 0rem;
     width: 37.5rem;
-    height: 81.2rem;
+    height: 48rem;
     background-color: #fff;
     padding: 3rem;
 
@@ -73,7 +74,7 @@ html{
 }
 .formulario_lb{
     font-size: 1.2rem;
-    color: #A5A5A5;
+    color: var(--color-5);
 
     display: flex;
     flex-direction: column;
@@ -86,7 +87,7 @@ html{
 .formulario_lb input {
     width: 100%;
     border: none;
-    border-bottom: 1px solid #A5A5A5;
+    border-bottom: 1px solid var(--color-5);
     margin-top: 1rem;
 }
 .img_pequeña{
@@ -111,7 +112,7 @@ html{
 }
 .label{
     font-size: 1.2rem;
-    color: #A5A5A5;
+    color: var(--color-5);
 
     display: flex;
     flex-direction: column;
@@ -120,7 +121,7 @@ html{
 .label input{
     width: 100%;
     border: none;
-    border-bottom: 1px solid #A5A5A5;
+    border-bottom: 1px solid var(--color-5);
     margin-top: 1rem;
 }
 .formulario button{
@@ -144,8 +145,8 @@ html{
     position: absolute;
 }
 .password{
-    color: #313131;
-    font-size: 14px;
+    color: var(--color-3);
+    font-size: var(--texto-4);
 
     margin-top: 2rem;
     align-self: flex-end;
